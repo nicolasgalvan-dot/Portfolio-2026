@@ -107,18 +107,11 @@
     color: #9ca3af;
 }
 
-.lock-icon {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    display: block;
-    opacity: 0.8;
-}
-
 .trimester-btn.locked {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    cursor: not-allowed;
+    pointer-events: none; /* Desabilita cliques */
+    opacity: 0.6;
+    filter: grayscale(0.8);
 }
 
 /* ── Activities Grid ─────────────────────────────────── */
