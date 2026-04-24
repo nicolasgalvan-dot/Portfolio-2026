@@ -107,6 +107,20 @@
     color: #9ca3af;
 }
 
+.trimester-btn.locked::after {
+    content: '🔒';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.trimester-btn.locked:hover::after {
+    opacity: 0.3;
+}
+
 /* ── Activities Grid ─────────────────────────────────── */
 .activities-grid {
     display: flex;
