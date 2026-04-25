@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matéria — Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/styles/materia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <button class="menu-btn" onclick="toggleSidebar()">☰ Menu</button>
+        <span class="logo-nome">Portfolio 2026</span>
+        <div class="logo-escola">
+            <img src="sesi-logo-1.png" alt="Logo da Escola">
+        </div>
+        <button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">🌙 Modo Escuro</button>
+    </nav>
+
+    <aside class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">✕</button>
+        <ul class="menu-list">
+            <li><button class="menu-item" onclick="mostrarHome()">Início</button></li>
+            
+            <li>
+                <button class="menu-item accordion">Técnico em Des. de Sistemas - Integrado ao EM <span class="seta">▾</span></button>
+                <ul class="sub-menu">
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=iot'">Internet das Coisas</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=bancoDeDados'">Banco de Dados</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=introducaoIndustriaProjetos'">Intro. à Indústria de Projetos</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=introducaoIndustria40'">Intro. à Indústria 4.0</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=sustentabilidade'">Sustentabilidade nos Processos Ind.</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=desenvolvimentoDeSistemas'">Desenvolvimento de Sistemas</button></li>
+                    <li><button class="sub-item" onclick="window.location.href='materia.html?materia=modelagem'">Modelagem de Sistemas</button></li>
+                </ul>
+            </li>
+
+            <li><button class="menu-item" onclick="window.location.href='materia.html?materia=matematica'">Matemática</button></li>
+            <li><button class="menu-item" onclick="window.location.href='materia.html?materia=linguagens'">Linguagens</button></li>
+            <li><button class="menu-item" onclick="window.location.href='materia.html?materia=natureza'">Natureza</button></li>
+            <li><button class="menu-item" onclick="window.location.href='materia.html?materia=humanas'">Humanas</button></li>
+
+            <li>
+                <button class="menu-item accordion">Currículo e Portfólios <span class="seta">▾</span></button>
+                <ul class="sub-menu">
+                    <li><button class="sub-item" onclick="window.open('curriculo.pdf', '_blank')">Meu Currículo (PDF)</button></li>
+                    <li><button class="sub-item" onclick="window.open('Portfólio.pdf', '_blank')">Portfólio Antigo (PDF)</button></li>
+                    <li><button class="sub-item" onclick="window.open('https://sites.google.com/estudante.sesisenai.org.br/nicolassesi/in%C3%ADcio', '_blank')">Portfólio 2025 (Link)</button></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+
+
+    <!-- Banner da matéria -->
+    <header class="materia-banner">
+        <div class="hero-content">
+            <h1 id="titulo-materia">Carregando...</h1>
+            <div class="linha-dourada"></div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="section-container">
+        <!-- Seletor de trimestres -->
+        <div class="trimester-selector" id="trimester-selector">
+            <button class="trimester-btn active" data-trimester="1">
+                <span class="tri-number">1º</span>
+                <span class="tri-label">Trimestre</span>
+            </button>
+            <button class="trimester-btn" data-trimester="2">
+                <span class="tri-number">2º</span>
+                <span class="tri-label">Trimestre</span>
+            </button>
+            <button class="trimester-btn" data-trimester="3">
+                <span class="tri-number">3º</span>
+                <span class="tri-label">Trimestre</span>
+            </button>
+        </div>
+
+        <!-- Grid de atividades -->
+        <div class="activities-grid" id="activities-grid">
+            <!-- Preenchido via JS -->
+        </div>
+    </main>
+
+
+
+    <script src="src/data/activities.js"></script>
+    <script src="src/materia-page.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
