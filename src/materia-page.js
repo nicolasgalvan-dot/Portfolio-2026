@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!subject || !subjectMap[subject]) {
     // Matéria inválida, redireciona para a home
-    window.location.href = 'portfolio_nicolas (1).html';
+    window.location.href = 'index.html';
     return;
   }
 

@@ -61,7 +61,7 @@ accordions.forEach(acc => {
 });
 
 function mostrarHome() {
-    window.location.href = 'portfolio_nicolas (1).html';
+    window.location.href = 'index.html';
 }
 
 
