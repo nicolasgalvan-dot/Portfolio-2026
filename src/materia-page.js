@@ -12,7 +12,7 @@ var subjectMap = {
   bancoDeDados: 'Banco de Dados',
   iot: 'Internet das Coisas',
   desenvolvimentoDeSistemas: 'Desenvolvimento de Sistemas',
-  introducaoIndustriaProjetos: 'Intro. à Indústria de Projetos',
+  programacaoAplicativos: 'Programação de Aplicativos',
   introducaoIndustria40: 'Intro. à Indústria 4.0',
   sustentabilidade: 'Sustentabilidade nos Processos Ind.'
 };

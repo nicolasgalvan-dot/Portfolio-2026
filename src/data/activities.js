@@ -313,7 +313,7 @@ const activitiesData = {
       {
        subject: 'Print nota Red 1000',
         description: 'Nesta redação, abordei o impacto da busca por informações sobre saúde mental na internet. Discuti os perigos do autodiagnóstico gerados por conteúdos das redes sociais e destaquei a importância de procurar profissionais qualificados em vez de tirar conclusões por conta própria. Esse texto me ajudou a exercitar a escrita dissertativa e a refletir sobre o uso consciente da tecnologia.',
-        habilidades: ['Não possui Habilidades'],
+        habilidades: ['H22 - Produzir textos técnicos de acordo com uma estrutura estabelecida.'],
         preview: {
           text: '',
           image: 'redacaoreescrita.png',
@@ -400,12 +400,12 @@ const activitiesData = {
 
       {
         subject: 'Controle de LED com botão - Desafio Lógica Toggle; ',
-        description: 'Nesta atividade',
+        description: 'Nesta atividade desenvolvemos um circuito com Arduino que permite controlar o acendimento de um LED utilizando um botão. O objetivo era implementar a lógica de toggle, onde cada pressionamento do botão alterna o estado do LED entre ligado e desligado. A atividade proporcionou uma compreensão prática da interação entre hardware e software, além de reforçar conceitos de programação e eletrônica.',
         habilidades: ['Não possui Habilidades'],
         preview: {
           text: '',
-          image: '',
-          link: 'https://youtu.be/EHy_RQ0CcSM?si=09YnLf362lIQgRJZ'
+          image: 'iot4.png',
+          link: 'https://youtube.com/shorts/KcOSBOOBPlU?si=c-3f68KMCCA7h9ts'
         }
       }
 
@@ -415,13 +415,33 @@ const activitiesData = {
 
   desenvolvimentoDeSistemas: {
     '1': [],
-    '2': [],
+    '2': [ {
+        subject: 'projeto da BP - Promotora de crédito. ',
+        description: 'Desenvolvimento de Aplicação Web Nesta atividade, foi desenvolvido um sistema web utilizando conhecimentos de programação e desenvolvimento de sistemas. O projeto envolve a criação de uma interface interativa, organização das informações e aplicação de recursos de programação para tornar o sistema funcional e fácil de utilizar. A atividade contribuiu para colocar em prática conceitos de desenvolvimento web, lógica de programação e estruturação de aplicações.',
+        habilidades: ['H1- Reconhecer requisitos de qualidade, integridade, usabilidade e segurança da informação H4- Selecionar Linguagem programação de acordo com os requisitos  H6- Aplicar linguagem de programação por meio de apis, bibliotecas, frameworks na construção de rotinasde software  '],
+        preview: {
+          text: '',
+          image: 'rinhasenai.png',
+          link: 'https://rinhasenai2026-ngji.onrender.com/'
+        }
+      }
+    ],
     '3': []
   },
 
-  introducaoIndustriaProjetos: {
+  programacaoAplicativos: {
     '1': [],
-    '2': [],
+    '2': [  {
+        subject: 'projeto da BP - Promotora de crédito.',
+        description: 'Desenvolvimento de Aplicação Web Nesta atividade, foi desenvolvido um sistema web utilizando conhecimentos de programação e desenvolvimento de sistemas. O projeto envolve a criação de uma interface interativa, organização das informações e aplicação de recursos de programação para tornar o sistema funcional e fácil de utilizar. A atividade contribuiu para colocar em prática conceitos de desenvolvimento web, lógica de programação e estruturação de aplicações.',
+        habilidades: ['H1- Reconhecer requisitos de qualidade, integridade, usabilidade e segurança da informação H4- Selecionar Linguagem programação de acordo com os requisitos  H6- Aplicar linguagem de programação por meio de apis, bibliotecas, frameworks na construção de rotinasde software  '],
+        preview: {
+          text: '',
+          image: 'rinhasenai.png',
+          link: 'https://rinhasenai2026-ngji.onrender.com/'
+        }
+      }
+    ],
     '3': []
   },
 
