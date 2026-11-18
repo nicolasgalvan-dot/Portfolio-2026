@@ -36,20 +36,6 @@ const activitiesData = {
         }
       },
 
-      {
-        subject: 'Jogo - Quebrando a Banca',
-        description: 'Nesta atividade, criamos um jogo inspirado no filme Quebrando a Banca, utilizando conceitos de probabilidade e análise combinatória. O trabalho foi dinâmico e ajudou a aplicar a matemática na prática, desenvolvendo o raciocínio lógico de forma criativa.',
-        habilidades: [
-          'C5: Aplicar o pensamento probabilístico para quantificar e fazer previsões em situações aplicadas a diferentes áreas do conhecimento e da vida cotidiana.',
-          'H30: Identificar dados, regularidades e relações numa situação que envolva o raciocínio combinatório, utilizando os processos de contagem.',
-          'H31: Reconhecer fenômenos e eventos (naturais, científicos, tecnológicos e/ou sociais) de caráter aleatório, compreendendo o significado e a importância da probabilidade como meio de prever resultados.'
-        ],
-        preview: {
-          text: 'Atividade sobre conjuntos numéricos e suas operações.',
-          image: 'jogo matematica.png',
-          link: 'https://jogo-quebrando-a-banca.netlify.app/'
-        }
-      },
       
     ],
     '2': [
@@ -62,6 +48,19 @@ const activitiesData = {
           text: '',
           image: 'matematicahoje.png',
           link: 'https://canva.link/xk99hfgl5txe9dv'
+        }
+      }
+    ],
+
+   '3': [
+
+      {
+        subject: 'Cilo Trigonométrico',
+        description: 'Acredito que essa atividade foi uma maneira legal de aprender sobre o ciclo trigonométrico. A criação do jogo deixou o conteúdo mais fácil de entender e tornou a aprendizagem mais divertida. Também foi uma forma diferente de praticar e revisar o que aprendemos em sala de aula.',
+        habilidades: ['C2 -Reconhecer e utilizar a linguagem algébrica e suas representações como a linguagem das ciências, necessária para expressar a relação entre grandezas e criar modelos descritivos permitindo conexões da matemática, com em fenômenos, sistemas naturais e tecnológicos.  H 5- Ler e interpretar diferentes linguagens e representações envolvendo variações de grandezas; H 16- Compreender e construir modelos que correspondem a fenômenos periódicos.'],preview: {
+          text: '',
+          image: 'ciclo trigonometrico.png',
+          link: 'https://canva.link/ag7rqy0c4koghyh'
         }
       }
     ]
@@ -166,7 +165,46 @@ const activitiesData = {
         }
       }
     ],
-    '3': []
+    '3': [
+     {
+        subject: 'Ciclos Bioquímocos',
+        description: 'Nesta atividade, estudei os ciclos biogeoquímicos e aprendi como elementos importantes, como água, carbono e nitrogênio, circulam pela natureza. Por meio da pesquisa e das atividades, compreendi melhor como esses ciclos ajudam a manter o equilíbrio do meio ambiente.',
+        habilidades: [
+        'Competências e habilidadesC1- Compreender as ciências naturais e as tecnologias como construções humanas associadas à cultura dos povos e suas visões de mundo.H4- Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações relevantes para compreender um fenômeno ou conceito relacionado às Ciências da Natureza.  C2 –Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica. H11- Empregar procedimentos e práticas de observação, levantamento de hipótese, experimentação, coleta de dados e conclusões para resolução de problemas relacionados às Ciências da Natureza.  C5 –Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos.   H24- Descrever as propriedades físicas, químicas e/ou biológicas dos materiais relacionando-os às finalidades as quais que se destinam.'
+        ], 
+        preview: {
+          text: '',
+          image:  'ciclos bioquimicos.png',
+          link: 'https://docs.google.com/presentation/d/1EYimTP18_bhc_JxAPTwGmlwCUuRzEAw8WCB2wkGB5j4/edit?slide=id.p1#slide=id.p1'
+        }
+      },
+
+      {
+        subject: 'Magnetismo no Mundo Real',
+        description: 'Nesta atividade, pesquisei como o magnetismo está presente no nosso dia a dia e em diferentes tecnologias. Aprendi sobre o funcionamento dos ímãs, os campos magnéticos e suas aplicações, como nos detectores de metais, entendendo melhor a importância do magnetismo no mundo real.',
+        habilidades: [
+        'C5 - Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos produtivos: indústria, manufatura, agricultura, agroindústria, extrativismo.H26 - Utilizar manuais para conhecer os processos de instalação e operação de diferentes equipamentos.  H27 - Executar testes de controle para a comparação de serviços, materiais e produtos, utilizando parâmetros como custo e eficiência, empregabilidade, efeito colateral, riscos e benefícios.  H28 - Reconhecer e utilizar nomenclatura e códigos científicos e tecnológicos para caracterizar materiais, substâncias e processos.'
+        ],
+        preview: {
+          text: '',
+          image:  'detector de metais.png',
+          link: 'https://canva.link/t3u3prohoqtzrsv'
+        }
+      },
+
+      {
+        subject: 'Investigação científica sobre óleos essenciais',
+        description: 'Nesta atividade, pesquisei sobre os óleos essenciais, conhecendo sua composição química, propriedades e aplicações. Também participei de uma experiência prática de destilação do alecrim, na qual pude entender melhor como funciona o processo de extração e como a Química Orgânica está presente no nosso dia a dia. ',
+        habilidades: [
+        'C5 - Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos produtivos: indústria, manufatura, agricultura, agroindústria, extrativismo. H12 – Relacionar informações para construir modelos em Ciência e Tecnologia. H24 – Descrever propriedades físicas, químicas e/ou biológicas dos materiais, relacionando-as às suas finalidades.  H25 – Identificar matérias-primas e etapas de transformação, descrevendo processos físicos, químicos e/ou biológicos.'
+        ],
+        preview: {
+          text: '',
+          image:  'destilação alecrim.png',
+          link: 'https://docs.google.com/document/d/1InA4mbcKsOW6oAdlfVkNrskQqyrbdwW5XDNL3oDHzNU/edit?usp=sharing'
+        }
+      }
+    ]
   },
 
   humanas: {
@@ -257,7 +295,41 @@ const activitiesData = {
   ]
 
 ,
-    '3': []
+    '3': [{
+        subject:'República Liberal: Brasília.',
+        description: 'Nesta atividade, assisti a um vídeo sobre a história da construção de Brasília e imaginei, junto com meu grupo, como seria uma nova capital para o Brasil. Criamos o planejamento da cidade, incluindo sua localização, organização e principais construções. Também explicamos nossas ideias e como elas poderiam contribuir para o desenvolvimento do país.',
+        habilidades: ['H36 – Propor interpretações e soluções para problemas identificados no contexto social brasileiro. H39 – Relacionar o papel das instituições sociais às soluções para problemas políticos, econômicos, sociais e  ambientais no contexto da sociedade brasileira. H40 – Analisar o processo de formação das instituições sociais e políticas, compreendendo seu papel na sociedade.'],
+        preview: {
+          text: '',
+          image: " o brasil dos anos 1950-3tri.png",
+          link: 'https://docs.google.com/presentation/d/1Ml5qSVpWbbcm_E0cS8B1GlnXF-Y8GC3SpzkaNhAfsa4/edit?usp=sharing'
+        }
+      }, 
+       
+      {
+        subject:'Galeria de Fotos - Era Vargas',
+        description: 'Nesta atividade, criei uma galeria virtual com cinco imagens sobre a vida e o governo de Getúlio Vargas. Cada foto apresenta um momento importante da sua trajetória política, desde sua chegada ao poder até seu retorno à Presidência e o fim de seu governo. Com isso, aprendi mais sobre as mudanças e os acontecimentos que marcaram a Era Vargas no Brasil.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: "Hmanas era vargas.png",
+          link: 'https://docs.google.com/document/d/1UH7PkQL7j_ifczekZjsqiqkiP1gVRq3L_i-nt63Avi4/edit?tab=t.0'
+        }
+      }, 
+      
+
+      {
+        subject:'Guerra Fria: Polarização Ideológica e Mundialização dos Conflitos',
+        description: 'Nesta atividade, realizamos uma pesquisa sobre a Guerra Fria, mostrando a disputa entre Estados Unidos e União Soviética. Criamos slides no Canva abordando conflitos, ditaduras, esportes, economia e armamentos. Aprendi como essa rivalidade influenciou vários países e gerou medo de uma guerra nuclear.',
+        habilidades: ['C5 H28 – Analisar as diversas fontes de informação e a influência na formação da opinião do indivíduo e na construção  da vida em sociedade. H30 – Analisar as lutas sociais e conquistas obtidas no que se refere às mudanças nas legislações ou nas políticas  públicas. H32 – Relacionar ética, moral, cidadania e democracia na organização das sociedades. C6 H39 – Relacionar o papel das instituições sociais às soluções para problemas políticos, econômicos, sociais e  ambientais no contexto da sociedade brasileira. H40 – Analisar o processo de formação das instituições sociais e políticas, compreendendo seu papel na sociedade.'],
+        preview: {
+          text: '',
+          image: "guerra fria .png ",
+          link: 'https://canva.link/65halshv473ulwp'
+        }
+      }, 
+      
+]
   },
 
   linguagens: {
@@ -323,7 +395,31 @@ const activitiesData = {
 
     ],
 
-    '3': []
+    '3': [ {
+       subject: 'Redações realizadas na plataforma Imagine.',
+        description: 'Fiz essa redação sobre o avanço da tecnologia, consegui tiar uma nota de 680.',
+        habilidades: ['C4 - Produzir textos orais e escritos, utilizando-os como meio de acesso e permanência no mundo do trabalho, respondendo aos diferentes propósitos da comunicação.H22 - Produzir textos técnicos de acordo com uma estrutura estabelecida.'],
+        preview: {
+          text: '',
+          image: 'redacao linguagens.png',
+          link: ''
+        }
+      },
+
+      {
+       subject: 'Narrativas hiperlinks - Secos e Molhados',
+        description: 'Nesta atividade, desenvolvi, junto com meu grupo, um site interativo inspirado no álbum de 1973 da banda Secos & Molhados. Criamos uma história de investigação com personagens, pistas, escolhas e diferentes finais. O projeto envolveu criatividade, pesquisa e o uso da tecnologia para relacionar música, literatura e história.',
+        habilidades: ['C3 - Articular aspectos das identidades em textos e manifestações artísticas e culturais, considerando as práticas sociais e as linguagens utilizadas. H15 - Produzir trabalhos individuais e coletivos, explorando materiais e técnicas ligados ao universo das composições artísticas e de práticas corporais. '],
+        preview: {
+          text: '',
+          image: 'mostra steam.png',
+          link: 'https://web-narrativa-alpha.vercel.app/'
+        }
+      },
+    ],
+
+    
+
   },
 
   /* ── Técnico ──────────────────────────────────────── */
@@ -426,7 +522,29 @@ const activitiesData = {
         }
       }
     ],
-    '3': []
+    '3': [
+      {
+        subject: 'Hackathon Entrega 01',
+        description: 'Nesta atividade, trabalhamos em equipe para pensar em soluções para desafios do cotidiano. Realizamos pesquisas, criamos um mapa da empatia e desenvolvemos uma proposta de valor. Nossa ideia foi uma mochila inteligente que avisa os estudantes quando esquecem algum material escolar. Aprendi a importância de entender os problemas das pessoas e criar soluções usando a tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'hackaton.png',
+          link: 'https://canva.link/ixlbw6rq2qk6rcu'
+        }
+      },
+
+      {
+        subject: 'Hackathon Entrega 02',
+        description: 'Nesta atividade, desenvolvemos uma proposta de programa de televisão sobre tecnologia e inovação voltado aos jovens. Criamos uma apresentação com ideias de conteúdos, como games, celulares, aplicativos e inteligência artificial, além de formas de conseguir patrocínio de empresas. Aprendi sobre inovação, trabalho em equipe e como conectar os interesses dos jovens com oportunidades de tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'pitch.png',
+          link: 'https://canva.link/3w5irhydxs0igbe'
+        }
+      }
+    ]
   },
 
   programacaoAplicativos: {
@@ -437,12 +555,34 @@ const activitiesData = {
         habilidades: ['H1- Reconhecer requisitos de qualidade, integridade, usabilidade e segurança da informação H4- Selecionar Linguagem programação de acordo com os requisitos  H6- Aplicar linguagem de programação por meio de apis, bibliotecas, frameworks na construção de rotinasde software  '],
         preview: {
           text: '',
-          image: 'rinhasenai.png',
+          image: '',
           link: 'https://rinhasenai2026-ngji.onrender.com/'
         }
       }
     ],
-    '3': []
+    '3': [{
+        subject: 'Hackathon Entrega 01',
+        description: 'Nesta atividade, trabalhamos em equipe para pensar em soluções para desafios do cotidiano. Realizamos pesquisas, criamos um mapa da empatia e desenvolvemos uma proposta de valor. Nossa ideia foi uma mochila inteligente que avisa os estudantes quando esquecem algum material escolar. Aprendi a importância de entender os problemas das pessoas e criar soluções usando a tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'hackaton.png',
+          link: 'https://canva.link/ixlbw6rq2qk6rcu'
+        }
+      },
+
+      {
+        subject: 'Hackathon Entrega 02',
+        description: 'Nesta atividade, desenvolvemos uma proposta de programa de televisão sobre tecnologia e inovação voltado aos jovens. Criamos uma apresentação com ideias de conteúdos, como games, celulares, aplicativos e inteligência artificial, além de formas de conseguir patrocínio de empresas. Aprendi sobre inovação, trabalho em equipe e como conectar os interesses dos jovens com oportunidades de tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'pitch.png',
+          link: 'https://canva.link/3w5irhydxs0igbe'
+        }
+      }
+      
+]
   },
 
   introducaoIndustria40: {
@@ -455,6 +595,58 @@ const activitiesData = {
     '1': [],
     '2': [],
     '3': []
+  },
+
+  implantacaoDeSistemas: {
+    '1': [],
+    '2': [],
+    '3': [{
+        subject: 'Hackathon Entrega 01',
+        description: 'Nesta atividade, trabalhamos em equipe para pensar em soluções para desafios do cotidiano. Realizamos pesquisas, criamos um mapa da empatia e desenvolvemos uma proposta de valor. Nossa ideia foi uma mochila inteligente que avisa os estudantes quando esquecem algum material escolar. Aprendi a importância de entender os problemas das pessoas e criar soluções usando a tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'hackaton.png',
+          link: 'https://canva.link/ixlbw6rq2qk6rcu'
+        }
+      },
+
+      {
+        subject: 'Hackathon Entrega 02',
+        description: 'Nesta atividade, desenvolvemos uma proposta de programa de televisão sobre tecnologia e inovação voltado aos jovens. Criamos uma apresentação com ideias de conteúdos, como games, celulares, aplicativos e inteligência artificial, além de formas de conseguir patrocínio de empresas. Aprendi sobre inovação, trabalho em equipe e como conectar os interesses dos jovens com oportunidades de tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'pitch.png',
+          link: 'https://canva.link/3w5irhydxs0igbe'
+        }
+      }]
+  },
+
+  testesDeSistemas: {
+    '1': [],
+    '2': [],
+    '3': [{
+        subject: 'Hackathon Entrega 01',
+        description: 'Nesta atividade, trabalhamos em equipe para pensar em soluções para desafios do cotidiano. Realizamos pesquisas, criamos um mapa da empatia e desenvolvemos uma proposta de valor. Nossa ideia foi uma mochila inteligente que avisa os estudantes quando esquecem algum material escolar. Aprendi a importância de entender os problemas das pessoas e criar soluções usando a tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'hackaton.png',
+          link: 'https://canva.link/ixlbw6rq2qk6rcu'
+        }
+      },
+
+      {
+        subject: 'Hackathon Entrega 02',
+        description: 'Nesta atividade, desenvolvemos uma proposta de programa de televisão sobre tecnologia e inovação voltado aos jovens. Criamos uma apresentação com ideias de conteúdos, como games, celulares, aplicativos e inteligência artificial, além de formas de conseguir patrocínio de empresas. Aprendi sobre inovação, trabalho em equipe e como conectar os interesses dos jovens com oportunidades de tecnologia.',
+        habilidades: ['Não Possui'],
+        preview: {
+          text: '',
+          image: 'pitch.png',
+          link: 'https://canva.link/3w5irhydxs0igbe'
+        }
+      }]
   }
 };
 

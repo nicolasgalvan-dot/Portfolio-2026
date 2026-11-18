@@ -14,7 +14,9 @@ const subjectMap = {
   desenvolvimentoDeSistemas: 'Desenvolvimento de Sistemas',
   programacaoAplicativos: 'Programação de Aplicativos',
   introducaoIndustria40: 'Intro. à Indústria 4.0',
-  sustentabilidade: 'Sustentabilidade nos Processos Ind.'
+  sustentabilidade: 'Sustentabilidade nos Processos Ind.',
+  implantacaoDeSistemas: 'Implantação de Sistemas',
+  testesDeSistemas: 'Testes de Sistemas'
 };
 
 // ── Abrir o overlay ─────────────────────────────────────
